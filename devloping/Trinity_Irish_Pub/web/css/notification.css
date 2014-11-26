@@ -1,0 +1,35 @@
+.notification-container {
+    position: relative;
+    width: 23px;
+    height: 16px;
+    top: 15px;
+    left: 15px;
+
+    i {
+        color: red;
+    }
+}
+
+.notification-counter {   
+    position: absolute;
+    top: -40px;
+    left: 60px;
+
+    background-color:greenyellow;
+    color: green;
+    border-radius: 3px;
+    padding: 1px 3px;
+    font: 12px Verdana;
+}
+/*$('button').click ->
+# Increment the value
+$counter = $('.notification-counter')
+val = parseInt $counter.text()
+val++
+
+# Animation
+$counter
+.css({opacity: 0})
+.text(val)
+.css({top: '-10px'})
+.transition({top: '-2px', opacity: 1})*/
