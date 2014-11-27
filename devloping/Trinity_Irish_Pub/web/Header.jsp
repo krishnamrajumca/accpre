@@ -144,6 +144,8 @@
             <div class="notification-container">
 
                 <%
+        String s=application.getInitParameter("id");
+        System.out.print("Restaurant"+s);
                     Orders o1 = new Orders();
                     int c2 = o1.getNotification();
         if (c2 != 0) {%>
